@@ -1,5 +1,7 @@
-# beräkna lön inkl. alla tillägg. Importera timmar från google kalender. Importera ob-tillägg
-# från nätet. Använd jobbskuld för att räkna ut skatten.
+# The program should calculate net salary, based on worked hours registered on google calendar. Might need a
+# connection to "https://assistanskoll.se/ob.html?d=2020-01-01" for fetching salary supplements, for hours worked
+# during inconvenient hours. Could possibly need a connection to "https://www.skatteverket.se/download/18.1997e70d18
+# 48dabbac93531/Allm%C3%A4nna%20tabeller%20-%20m%C3%A5nad.pdf" for fetching taxes.
 
 # Salary before any additional salary supplements.
 basic_salary = 28000
@@ -14,7 +16,7 @@ gross_salary = basic_salary + salary_extra_hour * extra_hours + salary_supplemen
 
 print("Gross salary:", gross_salary)
 
-# Skattetabeller
+# Tax table
 
 if 30001 <= gross_salary <= 30200:
     taxes = 5943
