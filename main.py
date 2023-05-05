@@ -16,7 +16,7 @@ gross_salary = basic_salary + salary_extra_hour * extra_hours + salary_supplemen
 
 print("Gross salary:", gross_salary)
 
-# Tax table
+# Tax table (can the table on "skatteverket" be used instead of all of the if/elif/else statements?)
 
 if 30001 <= gross_salary <= 30200:
     taxes = 5943
