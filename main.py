@@ -9,35 +9,35 @@ bruttolon = grundlon + ob + lon_extratimme * extratimmar
 
 print("Bruttolon:", bruttolon)
 
-#Skattetabeller
+# Skattetabeller
 
-if bruttolon <= 32200 and bruttolon >= 32001:
+if 32200 >= bruttolon >= 32001:
     skatt = 6454
-elif bruttolon <= 32400 and bruttolon >= 32201:
+elif 32400 >= bruttolon >= 32201:
     skatt = 6505
-elif bruttolon <= 32600 and bruttolon >= 32401:
+elif 32600 >= bruttolon >= 32401:
     skatt = 6556
-elif bruttolon <= 32800 and bruttolon >= 32601:
+elif 32800 >= bruttolon >= 32601:
     skatt = 6607
-elif bruttolon <= 33000 and bruttolon >= 32801:
+elif 33000 >= bruttolon >= 32801:
     skatt = 6658
-elif bruttolon <= 33400 and bruttolon >= 33201:
+elif 33400 >= bruttolon >= 33201:
     skatt = 6761
-elif bruttolon <= 33600 and bruttolon >= 33401:
+elif 33600 >= bruttolon >= 33401:
     skatt = 6812
-elif bruttolon <= 33800 and bruttolon >= 33601:
+elif 33800 >= bruttolon >= 33601:
     skatt = 6863
-elif bruttolon <= 34000 and bruttolon >= 33801:
+elif 34000 >= bruttolon >= 33801:
     skatt = 6914
-elif bruttolon <= 34200 and bruttolon >= 34001:
+elif 34200 >= bruttolon >= 34001:
     skatt = 6965
-elif bruttolon <= 34400 and bruttolon >= 34201:
+elif 34400 >= bruttolon >= 34201:
     skatt = 7016
-elif bruttolon <= 34600 and bruttolon >= 34401:
+elif 34600 >= bruttolon >= 34401:
     skatt = 7067
-elif bruttolon <= 34800 and bruttolon >= 34601:
+elif 34800 >= bruttolon >= 34601:
     skatt = 7118
-elif bruttolon <= 35000 and bruttolon >= 34601:
+elif 35000 >= bruttolon >= 34601:
     skatt = 7169
 else:
     skatt = bruttolon * 0.3
