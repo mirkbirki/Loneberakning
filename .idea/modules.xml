@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Löneberäknare.iml" filepath="$PROJECT_DIR$/.idea/Löneberäknare.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Loneberakning.iml" filepath="$PROJECT_DIR$/.idea/Loneberakning.iml" />
     </modules>
   </component>
 </project>
